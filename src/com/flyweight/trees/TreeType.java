@@ -3,7 +3,16 @@ package com.flyweight.trees;
 import java.awt.*;
 
 /**
- * Contém estado compartilhado por diversas árvores.
+ * Contém estado(Tipo da árvore) compartilhado por diversas árvores.
+ * 
+ * A classe flyweight contém uma parte do estado de uma árvore.
+ * Esses campos armazenam valores que são únicos para cada
+ * árvore em particular. Por exemplo, você não vai encontrar
+ * coordenadas da árvore aqui. Já que esses dados geralmente são
+ * GRANDES, você gastaria muita memória mantendo-os em cada
+ * objeto árvore. Ao invés disso, nós podemos extrair a textura,
+ * cor e outros dados repetitivos em um objeto separado os quais
+ * muitas árvores individuais podem referenciar.
  */
 public class TreeType {
 

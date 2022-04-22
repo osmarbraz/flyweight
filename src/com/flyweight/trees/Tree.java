@@ -4,6 +4,11 @@ import java.awt.*;
 
 /**
  * Contém estado único para cada árvore.
+ * O objeto contextual contém a parte extrínseca do estado da
+ * árvore. Uma aplicação pode criar bilhões desses estados, já
+ * que são muito pequenos:
+ * apenas dois números inteiros para coordenadas e um campo de
+ * referência.
  */
 public class Tree {
 
