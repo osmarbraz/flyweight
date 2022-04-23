@@ -1,5 +1,5 @@
 
-import com.flyweight.Forest;
+import com.flyweight.forest.Forest;
 import java.awt.*;
 
 public class Principal {

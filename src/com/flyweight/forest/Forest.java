@@ -1,4 +1,4 @@
-package com.flyweight;
+package com.flyweight.forest;
 
 import com.flyweight.trees.TreeFactory;
 import com.flyweight.trees.TreeType;
